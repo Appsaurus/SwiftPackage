@@ -41,8 +41,8 @@ github "<USERNAME>/<PACKAGENAME>"
 
 ## Contributing
 
-We would love you to contribute to **<PACKAGENAME>**, check the [CONTRIBUTING](https://github.com/<USERNAME>/<PACKAGENAME>/blob/master/CONTRIBUTING.md) file for more info.
+We would love you to contribute to **<PACKAGENAME>**, check the [CONTRIBUTING](<GIT_HOST>/<USERNAME>/<PACKAGENAME>/blob/master/CONTRIBUTING.md) file for more info.
 
 ## License
 
-**<PACKAGENAME>** is available under the MIT license. See the [LICENSE](https://github.com/<USERNAME>/<PACKAGENAME>/blob/master/LICENSE.md) file for more info.
+**<PACKAGENAME>** is available under the MIT license. See the [LICENSE](<GIT_HOST>/<USERNAME>/<PACKAGENAME>/blob/master/LICENSE.md) file for more info.

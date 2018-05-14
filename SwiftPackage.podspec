@@ -2,11 +2,11 @@ Pod::Spec.new do |s|
   s.name             = "<PACKAGENAME>"
   s.summary          = "A short description of <PACKAGENAME>."
   s.version          = "0.1.0"
-  s.homepage         = "https://github.com/<USERNAME>/<PACKAGENAME>"
+  s.homepage         = "<GIT_HOST>/<USERNAME>/<PACKAGENAME>"
   s.license          = 'MIT'
   s.author           = { "<AUTHOR_NAME>" => "<AUTHOR_EMAIL>" }
   s.source           = {
-    :git => "https://github.com/<USERNAME>/<PACKAGENAME>.git",
+    :git => "<GIT_HOST>/<USERNAME>/<PACKAGENAME>.git",
     :tag => s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/<USERNAME>'
