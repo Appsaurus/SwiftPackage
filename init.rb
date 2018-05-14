@@ -73,6 +73,7 @@ file_names.each do |file_name|
     new_contents = new_contents.gsub(/<AUTHOR_NAME>/, author_name)
     new_contents = new_contents.gsub(/<AUTHOR_EMAIL>/, author_email)
     new_contents = new_contents.gsub(/<USERNAME>/, username)
+	new_contents = new_contents.gsub(/<GIT_HOST>/, git_host)
 
     File.open(file_name, "w") {|file| file.puts new_contents }
   end
