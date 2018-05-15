@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "<AUTHOR_NAME>" => "<AUTHOR_EMAIL>" }
   s.source           = {
-    :git => "<GIT_HOST>/<USERNAME>/<PACKAGENAME>.git",
+    :git => "<GIT_URL>",
     :tag => s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/<USERNAME>'
@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
   # s.dependency 'Whisper', '~> 1.0'
   # s.watchos.exclude_files = ["Sources/AnimatedImageView.swift"] 
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
 end

@@ -10,7 +10,7 @@ let package = Package(
 	],
 	dependencies: [],
 	targets: [
-	.target(name: "<PACKAGENAME>", dependencies: [], path: ".Sources/Shared"),
-		.testTarget(name: "<PACKAGENAME>Tests", dependencies: ["<PACKAGENAME>", path: ".<PACKAGENAME>Tests/Shared"])
+	.target(name: "<PACKAGENAME>", dependencies: [], path: "Sources/Shared"),
+		.testTarget(name: "<PACKAGENAME>Tests", dependencies: ["<PACKAGENAME>"], path: "<PACKAGENAME>Tests/Shared")
 	]
 )
