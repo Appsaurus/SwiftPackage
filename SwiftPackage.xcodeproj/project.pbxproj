@@ -655,7 +655,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.SwiftPackage-tvOS";
 				PRODUCT_NAME = SwiftPackage;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -686,7 +686,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.SwiftPackage-tvOS";
 				PRODUCT_NAME = SwiftPackage;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -710,7 +710,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-tvOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.SwiftPackage-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -735,7 +735,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-tvOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.SwiftPackage-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 4.2;
@@ -764,7 +764,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.SwiftPackage-watchOS";
 				PRODUCT_NAME = SwiftPackage;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -796,7 +796,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-watchOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.SwiftPackage-watchOS";
 				PRODUCT_NAME = SwiftPackage;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -965,7 +965,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-iOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.SwiftPackageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.appsaurus.SwiftPackageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -982,7 +982,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-iOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
-				PRODUCT_BUNDLE_IDENTIFIER = no.hyper.SwiftPackageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.appsaurus.SwiftPackageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -1047,7 +1047,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-macOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-MacTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.SwiftPackage-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.2;
@@ -1066,7 +1066,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftPackageTests/Info-macOS-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "no.hyper.SwiftPackage-MacTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.appsaurus.SwiftPackage-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.2;
